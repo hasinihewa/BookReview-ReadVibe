@@ -61,16 +61,6 @@
 
 ---
 
-## **Quick Start**
-
-### Backend Setup
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/BookReview-ReadVibe.git
-   cd BookReview-ReadVibe/backend
-
-
 ## Quick Start
 
 ### Backend Setup
@@ -79,28 +69,30 @@
    ```bash
    git clone https://github.com/yourusername/BookReview-ReadVibe.git
    cd BookReview-ReadVibe/backend
-2. Configure PostgreSQL in application.properties:
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/book_reviews_db
-spring.datasource.username=your_db_username
-spring.datasource.password=your_db_password
-
-3. Build and run the backend (port: 8082):
-bash
+2. Configure PostgreSQL in application.properties:  
+   ```bash
+   npm install
+3. Build and run the backend (port: 8082):  
+   ```bash
    mvn clean install
    mvn spring-boot:run
 
 ###Frontend Setup
-1. Navigate to the frontend directory:
-bash
-cd BookReview-ReadVibe/frontend
 
-2.Install dependencies:
-bash
-npm install
-
-3.Start the frontend:
-bash
-npm start
+1. Navigate to the frontend directory:  
+   ```bash
+   cd BookReview-ReadVibe/frontend
+2. Install dependencies:  
+  
+   ```bash
+   npm install
+3. Start the frontend:
+  
+   ```bash
+   npm start
 4. Frontend runs on http://localhost:3000.
+
+   
+   
+
 
