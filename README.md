@@ -86,21 +86,21 @@ spring.datasource.username=your_db_username
 spring.datasource.password=your_db_password
 
 3. Build and run the backend (port: 8082):
-```bash
+bash
    mvn clean install
    mvn spring-boot:run
 
 ###Frontend Setup
 1. Navigate to the frontend directory:
-```bash
+bash
 cd BookReview-ReadVibe/frontend
 
 2.Install dependencies:
-```bash
+bash
 npm install
 
 3.Start the frontend:
-```bash
+bash
 npm start
 4. Frontend runs on http://localhost:3000.
 
