@@ -90,7 +90,6 @@
   
    ```bash
    npm start
-4. Frontend runs on http://localhost:3000.
 
    
    
